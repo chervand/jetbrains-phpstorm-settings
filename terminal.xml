@@ -1,0 +1,6 @@
+<application>
+  <component name="TerminalOptionsProvider">
+    <option name="myShellPath" value="bash.exe" />
+    <option name="myTabName" value="local" />
+  </component>
+</application>

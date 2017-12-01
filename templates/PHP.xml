@@ -1,0 +1,18 @@
+<templateSet group="PHP">
+  <template name="td" value="TODO[d6, $DATE$]: $END$" description="TODO comment" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="e" value="&lt;?= $END$ ?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="ph" value="&lt;?php $END$ ?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
